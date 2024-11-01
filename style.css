@@ -1,0 +1,608 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+/* <!-- Code for First Box.......................................................... --> */
+.cont-one {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.shadow-box {
+    width: 100%;
+    height: 90vh;
+    background-image: url(assets/images/background\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+    opacity: 0.3;
+    filter: blur(2px);
+
+}
+
+.first-box {
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 23vw;
+    height: 45px;
+}
+
+.sign-in {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sign-in button {
+    width: 70px;
+    height: 28px;
+    background-color: #e50914;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+.sign-in button a {
+    color: white;
+    text-decoration: none;
+}
+
+.first-one {
+    width: auto;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px;
+}
+
+.first-one .p1>h1 {
+    width: auto;
+    height: auto;
+    color: rgb(201, 200, 200);
+    margin: 0;
+}
+
+.first-one .p1 {
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.first-one .p2>h3 {
+    width: auto;
+    height: auto;
+    color: rgb(201, 200, 200);
+    margin: 0;
+}
+
+.first-one .p2 {
+    font-size: 20px;
+}
+
+.first-one .p3>h5 {
+    width: auto;
+    height: auto;
+    color: rgb(201, 200, 200);
+    margin: 0;
+}
+
+.first-one .p3 {
+    font-size: 20px;
+}
+
+.email-section {
+    width: 30vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(235, 235, 235);
+    margin-top: 30px;
+}
+
+.email input {
+    width: 20vw;
+    height: 45px;
+    background-color: rgba(19, 19, 19, 0.6);
+    border: 1px solid rgba(246, 238, 238, 0.4);
+    color: rgb(235, 235, 235);
+    font-size: 18px;
+}
+
+.email input::placeholder {
+    font-size: 18px;
+    color: rgb(139, 139, 139);
+}
+
+.start-btn button {
+    width: 16vh;
+    height: 48px;
+    background-color: #e50914;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* <!-- Code for Second Box.......................................................... --> */
+.cont-two {
+    width: 100%;
+    height: 95vh;
+    position: relative;
+}
+
+.shadow-box-2 {
+    width: 100%;
+    height: 95vh;
+    background-image: url(assets/images/backgroun\ img-2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+    opacity: 0.2;
+    filter: blur(5px);
+}
+
+.second-box {
+    width: 100%;
+    height: 95vh;
+    position: absolute;
+    top: 0%;
+}
+
+.data {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-sec {
+    width: 80%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.country select {
+    background-color: rgba(19, 19, 19, 0.6);
+    color: rgb(235, 235, 235);
+    padding: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.Movie select {
+    background-color: rgba(19, 19, 19, 0.6);
+    color: rgb(235, 235, 235);
+    padding: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sec-p {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-h3 {
+    width: 80%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.sec-h3 h3 {
+    color: rgb(235, 235, 235);
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.albums-section {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.albums {
+    width: 80%;
+    height: 33vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+.alb-one {
+    width: 20%;
+    height: 30vh;
+    border-radius: 20px;
+    padding: 0px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alb-one img {
+    height: 30vh;
+    border-radius: 20px;
+}
+
+/* <!-- Code for third Box.......................................................... --> */
+.cont-three {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+.third-box {
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    top: 0;
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ask-q1 {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ask-q2 {
+    width: 80%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.ask-q2 p {
+    color: rgb(235, 235, 235);
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.questions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.question {
+    width: 80%;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+}
+
+.que {
+    color: rgb(235, 235, 235);
+    font-size: 22px;
+    font-family: 'Lucida Sans', Geneva, sans-serif;
+}
+
+.answer {
+    width: 80%;
+    background-color: #383838;
+    color: rgb(235, 235, 235);
+    font-size: 22px;
+    font-family: 'Lucida Sans', Geneva, sans-serif;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    display: none;
+    /* Hide answers by default */
+}
+
+.svg img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+}
+
+.rotate {
+    transform: rotate(45deg);
+    /* Rotate image to create minus sign effect */
+}
+
+/* <!-- Code for Sepration Line.......................................................... --> */
+.sepration {
+    width: 100%;
+    height: 7px;
+    background-color: rgb(37, 35, 37);
+    margin-top: 25px;
+}
+
+/* <!-- Code for Fourth Box.......................................................... --> */
+
+.cont-four {
+    width: 100%;
+    height: 58vh;
+    position: relative;
+}
+
+.fourth-box {
+    width: 100%;
+    height: 58vh;
+    background-color: #0f0f0f;
+    position: absolute;
+    top: 0;
+
+}
+
+.first {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-one-box {
+    width: 75%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.first-one-box p a {
+    color: rgb(201, 200, 200);
+    font-size: 20px;
+}
+
+.second {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-one {
+    width: 75%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.sec-one div {
+    width: 200px;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-one div a {
+    color: rgb(201, 200, 200);
+    font-size: larger;
+}
+
+.third {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.third-one {
+    width: 75%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.third-one select {
+    width: 10%;
+    height: 5vh;
+    background-color: #0f0f0f;
+    color: rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* CSS code for Scroll Bar................................... */
+/* Scrollbar styling for WebKit browsers */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+    /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    /* Scrollbar color */
+    border-radius: 12px;
+    /* Roundness of the scrollbar */
+    border: 2px solid #333;
+    /* Padding around the scrollbar */
+}
+
+/*.................................... CSS code for Hover Effect................................... */
+.sign-in :hover {
+    background-color: rgb(178, 5, 5);
+}
+
+.start-btn :hover {
+    background-color: rgb(178, 5, 5);
+}
+
+.alb-one a :hover {
+    border: 3px solid white;
+}
+
+.questions :hover {
+    background-color: rgb(75, 73, 73);
+}
+
+/*.................................... CSS code for Responsiveness................................... */
+@media screen and (max-width:1200px) {
+    .alb-one {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .email-section {
+        height: 200px;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .email input {
+        width: 70vw;
+    }
+
+    .sec-one {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .third-one select {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .sec-one {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .alb-one {
+        width: 60%;
+    }
+
+    .cont-three {
+        height: 60vh;
+    }
+
+    .third-box {
+        height: 60vh;
+    }
+
+    .ask-q2 p {
+        font-size: 22px;
+    }
+
+    .que {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .answer {
+        font-size: 16px;
+    }
+
+    .svg img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .cont-four {
+        height: 85vh;
+    }
+
+    .fourth-box {
+        height: 85vh;
+    }
+
+    .second {
+        height: 70vh;
+    }
+
+    .sec-one {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        height: 65vh;
+    }
+
+    .sec-one div {
+        width: 300px;
+        justify-content: flex-start;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .alb-one {
+        width: 75%;
+    }
+
+}
